@@ -1,0 +1,5 @@
+for i=1:20
+    angrymfcc{i}=mfcc(angry{i},11000,100);
+    sadmfcc{i}=mfcc(sad{i},11000,100);
+    normalmfcc{i}=mfcc(normal{i},11000,100);
+    endb
